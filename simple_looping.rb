@@ -1,7 +1,9 @@
 def loop_iterator(number_of_times)
-  propriate number...
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  counter = 0
+  loop do
+    phrase = "Welcome to Flatiron School's Web Development Course!"
+    counter++
+    break if counter >= number_of_times
 end
 
 def times_iterator(number_of_times)
